@@ -1,0 +1,61 @@
+body{
+  background-color: rgb(25, 25, 25);
+}
+.info-text{
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+}
+.btn-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Move-btn{
+  padding: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 2px solid white;
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+  background-color: rgb(25, 25, 25);
+  cursor: pointer;
+}
+.Move-btn:hover{
+  background-color: hsl(0, 0%, 45%);
+}
+.Move-btn:active{
+  background-color: hsl(0, 0%, 65%);
+}
+.emoji-moves{
+  width: 40px;
+  height: 40px;
+  margin-left: 3px;
+  margin-top: 3px;
+  background-color: transparent;
+}
+.result{
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 50px;
+  color: white;
+}
+.moves-text{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.score-display{
+  margin-top: 50px;
+  color: white;
+}
+.reset-btn, .auto-play-button {
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(54, 54, 54);
+  border: none;
+  cursor: pointer;
+}
